@@ -1,5 +1,6 @@
 
 # Spring Boot Demo 
+# Demonstrates Employee CRUD Operations through REST Controller with JSON Request/Responses.
 
 **Pre Steps**
 * Install latest version of Spring STS : https://spring.io/tools
