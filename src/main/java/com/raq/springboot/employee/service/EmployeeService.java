@@ -1,4 +1,4 @@
-package com.raq.springboot.employee.controller;
+package com.raq.springboot.employee.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,11 +18,12 @@ public class EmployeeService {
 					new EmployeeVO(3, "AbdulRaafay", 40,4000d)));
 
 	public List<EmployeeVO> getEmployees() {
-		System.out.println("EmployeeService.getEmployees() called");
+		System.out.println("EmployeeService.getEmployees() invoked " + employees );
 		return employees;
 	}
 	
 	public EmployeeVO getEmployee(int id) {
+		System.out.println("EmployeeService.getEmployee(id) invoked " + id );
 		return employees.stream().filter(t -> t.getId() == id).findFirst().get();
 	}
 

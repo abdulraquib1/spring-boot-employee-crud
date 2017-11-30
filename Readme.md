@@ -17,8 +17,7 @@
 
 **Issues**
 
-Moving the Service Class to package : com.raq.springboot.employee.service
-is not working
+
 
 
 **Refer for Application properties**
