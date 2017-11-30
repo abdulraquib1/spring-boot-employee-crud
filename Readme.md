@@ -11,7 +11,7 @@
 * GET   		/employees 			Gets all the employees   http://localhost:1975/employees
 * GET    		/employees/id		Get the employee		 http://localhost:1975/employees/1
 * POST   		/employees			Create new employee		 http://localhost:1975/employees
-* POST   		/employees/id		Update the employee		 http://localhost:1975/employees/
+* PUT   		/employees/id		Update the employee		 http://localhost:1975/employees/
 * DELETE		/employees/id		Deletes the employee	 http://localhost:1975/employees/3
 
 
