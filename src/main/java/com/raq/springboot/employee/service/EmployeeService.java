@@ -33,11 +33,19 @@ public class EmployeeService {
 	}
 
 	public void updateEmployee(EmployeeVO employee) {
+		EmployeeVO emp = getEmployee(employee.getId());
+		emp.setAge(employee.getAge());
+		emp.setName(employee.getName());
+		emp.setSalary(employee.getSalary());
+		
 		System.out.println("EmployeeService.updateEmployee() invoked " + employee);
 		
 	}
 
 	public void deleteEmployee(int id) {
+		
+		EmployeeVO emp = getEmployee(id);
+		employees.remove(emp);
 		System.out.println("EmployeeService.deleteEmployee() invoked " + id);
 	}
 
